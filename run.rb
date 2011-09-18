@@ -15,6 +15,7 @@ require './ethnicities.rb'
 require './forces.rb'
 require './stops_and_searches.rb'
 require './normalised_stops_and_searches.rb'
+require './authentication.rb'
 
 # Connect to the database using Sequel, a lightweight DB wrapper.
 DB = Sequel.connect 'sqlite://db.db'
