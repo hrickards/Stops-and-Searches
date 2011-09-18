@@ -4,8 +4,8 @@ class Areas
     # The link to the URL containing the data. LevelTypeId is 13 - signifying
     # that we want to return local authorities and AreaId is 276693, the ID for
     # England.
-    data_url = 'http://neighbourhood.statistics.gov.uk/NDE2/Disco/' + 
-      'GetAreaAtLevel?LevelTypeId=#{LEVEL_TYPE_ID}&AreaId=276693'
+    data_url = "http://neighbourhood.statistics.gov.uk/NDE2/Disco/" + 
+      "GetAreaAtLevel?LevelTypeId=#{LEVEL_TYPE_ID}&AreaId=276693"
 
     # Scrape the data.
     data = scrape data_url
